@@ -1,7 +1,8 @@
 const attributes = {
   default: {
-    tagName: "div",
+    tagName: "p",
     parse: false,
+    breakOnReturn: true,
   },
   quote: {
     tagName: "blockquote",
@@ -9,9 +10,24 @@ const attributes = {
   },
   heading1: {
     tagName: "h1",
-    terminal: true,
+    terminal: false,
     breakOnReturn: true,
-    group: false,
+    exclusive: true,
+    group: "heading",
+  },
+  heading2: {
+    tagName: "h2",
+    terminal: false,
+    breakOnReturn: true,
+    exclusive: true,
+    group: "heading",
+  },
+  heading3: {
+    tagName: "h3",
+    terminal: false,
+    breakOnReturn: true,
+    exclusive: true,
+    group: "heading",
   },
   code: {
     tagName: "pre",
