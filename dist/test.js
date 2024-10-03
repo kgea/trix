@@ -2,9 +2,9 @@
 Trix 2.1.6
 Copyright © 2024 37signals, LLC
  */
-var name = "vue-trix";
+var name = "trix";
 var version = "2.1.6";
-var description = "A rich text editor for everyday writing";
+var description = "A rich text editor for everyday writing - forked for custom headings";
 var main = "dist/trix.umd.min.js";
 var module = "dist/trix.esm.min.js";
 var style = "dist/trix.css";
@@ -16,7 +16,7 @@ var files = [
 ];
 var repository = {
 	type: "git",
-	url: "git+https://github.com/basecamp/trix.git"
+	url: "git+https://github.com/kgea/trix.git"
 };
 var keywords = [
 	"rich text",

@@ -1,7 +1,7 @@
 {
-  "name": "vue-trix",
+  "name": "trix",
   "version": "2.1.6",
-  "description": "A rich text editor for everyday writing",
+  "description": "A rich text editor for everyday writing - forked for custom headings",
   "main": "dist/trix.umd.min.js",
   "module": "dist/trix.esm.min.js",
   "style": "dist/trix.css",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basecamp/trix.git"
+    "url": "git+https://github.com/kgea/trix.git"
   },
   "keywords": [
     "rich text",
